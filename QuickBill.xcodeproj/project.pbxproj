@@ -13,6 +13,7 @@
 		0A960628187BB5D100325539 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A960623187BB5D100325539 /* zbar-helpicons.png */; };
 		0A960629187BB5D100325539 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A960624187BB5D100325539 /* zbar-samples.png */; };
 		0A96062C187BB95500325539 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96062B187BB95500325539 /* ImageViewController.m */; };
+		0A96062F187BBEBA00325539 /* websites.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A96062E187BBEBA00325539 /* websites.txt */; };
 		0AD61F29187BA456003E4229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD61F28187BA456003E4229 /* Foundation.framework */; };
 		0AD61F2B187BA456003E4229 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD61F2A187BA456003E4229 /* CoreGraphics.framework */; };
 		0AD61F2D187BA456003E4229 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD61F2C187BA456003E4229 /* UIKit.framework */; };
@@ -73,6 +74,7 @@
 		0A96062A187BB95500325539 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		0A96062B187BB95500325539 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		0A96062D187BBADC00325539 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A96062E187BBEBA00325539 /* websites.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = websites.txt; sourceTree = "<group>"; };
 		0AD61F25187BA456003E4229 /* QuickBill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickBill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD61F28187BA456003E4229 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AD61F2A187BA456003E4229 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -196,6 +198,7 @@
 		0AD61F1C187BA456003E4229 = {
 			isa = PBXGroup;
 			children = (
+				0A96062E187BBEBA00325539 /* websites.txt */,
 				0AD61F2E187BA456003E4229 /* QuickBill */,
 				0AD61F4D187BA456003E4229 /* QuickBillTests */,
 				0AD61F27187BA456003E4229 /* Frameworks */,
@@ -350,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A96062F187BBEBA00325539 /* websites.txt in Resources */,
 				0AD61F41187BA456003E4229 /* Images.xcassets in Resources */,
 				0A960627187BB5D100325539 /* zbar-help.html in Resources */,
 				0A960629187BB5D100325539 /* zbar-samples.png in Resources */,

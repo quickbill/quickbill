@@ -77,6 +77,9 @@
     [self presentModalViewController: reader
                             animated: YES];
     //[reader release]; //ARC does this automatically now
+    
+    [self performSegueWithIdentifier:@"gotoImageView" sender:self];
+    
 }
 
 - (void)didReceiveMemoryWarning
