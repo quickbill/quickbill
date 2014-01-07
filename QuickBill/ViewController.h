@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController < ZBarReaderDelegate >
 
+{
+    UIImageView *resultImage;
+    UITextView *resultText;
+}
+@property (nonatomic, retain) IBOutlet UIImageView *resultImage;
+@property (nonatomic, retain) IBOutlet UITextView *resultText;
+- (IBAction) scanButtonTapped;
+//adds connections to the interface elements
 @end
