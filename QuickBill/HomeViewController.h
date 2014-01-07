@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeViewController.h
 //  QuickBill
 //
 //  Created by MuttonButton on 1/6/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController < ZBarReaderDelegate >
+@interface HomeViewController : UIViewController < ZBarReaderDelegate >
 
 {
     UIImageView *resultImage;

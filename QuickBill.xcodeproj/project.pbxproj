@@ -12,6 +12,7 @@
 		0A960627187BB5D100325539 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 0A960622187BB5D100325539 /* zbar-help.html */; };
 		0A960628187BB5D100325539 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A960623187BB5D100325539 /* zbar-helpicons.png */; };
 		0A960629187BB5D100325539 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A960624187BB5D100325539 /* zbar-samples.png */; };
+		0A96062C187BB95500325539 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96062B187BB95500325539 /* ImageViewController.m */; };
 		0AD61F29187BA456003E4229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD61F28187BA456003E4229 /* Foundation.framework */; };
 		0AD61F2B187BA456003E4229 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD61F2A187BA456003E4229 /* CoreGraphics.framework */; };
 		0AD61F2D187BA456003E4229 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD61F2C187BA456003E4229 /* UIKit.framework */; };
@@ -19,7 +20,7 @@
 		0AD61F35187BA456003E4229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD61F34187BA456003E4229 /* main.m */; };
 		0AD61F39187BA456003E4229 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD61F38187BA456003E4229 /* AppDelegate.m */; };
 		0AD61F3C187BA456003E4229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD61F3A187BA456003E4229 /* Main.storyboard */; };
-		0AD61F3F187BA456003E4229 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD61F3E187BA456003E4229 /* ViewController.m */; };
+		0AD61F3F187BA456003E4229 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD61F3E187BA456003E4229 /* HomeViewController.m */; };
 		0AD61F41187BA456003E4229 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD61F40187BA456003E4229 /* Images.xcassets */; };
 		0AD61F48187BA456003E4229 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD61F47187BA456003E4229 /* XCTest.framework */; };
 		0AD61F49187BA456003E4229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD61F28187BA456003E4229 /* Foundation.framework */; };
@@ -69,6 +70,8 @@
 		0A960622187BB5D100325539 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
 		0A960623187BB5D100325539 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
 		0A960624187BB5D100325539 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		0A96062A187BB95500325539 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		0A96062B187BB95500325539 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		0AD61F25187BA456003E4229 /* QuickBill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickBill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD61F28187BA456003E4229 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AD61F2A187BA456003E4229 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,8 +83,8 @@
 		0AD61F37187BA456003E4229 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0AD61F38187BA456003E4229 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0AD61F3B187BA456003E4229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0AD61F3D187BA456003E4229 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0AD61F3E187BA456003E4229 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AD61F3D187BA456003E4229 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0AD61F3E187BA456003E4229 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		0AD61F40187BA456003E4229 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0AD61F46187BA456003E4229 /* QuickBillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD61F47187BA456003E4229 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -232,8 +235,10 @@
 				0AD61F37187BA456003E4229 /* AppDelegate.h */,
 				0AD61F38187BA456003E4229 /* AppDelegate.m */,
 				0AD61F3A187BA456003E4229 /* Main.storyboard */,
-				0AD61F3D187BA456003E4229 /* ViewController.h */,
-				0AD61F3E187BA456003E4229 /* ViewController.m */,
+				0AD61F3D187BA456003E4229 /* HomeViewController.h */,
+				0AD61F3E187BA456003E4229 /* HomeViewController.m */,
+				0A96062A187BB95500325539 /* ImageViewController.h */,
+				0A96062B187BB95500325539 /* ImageViewController.m */,
 				0AD61F40187BA456003E4229 /* Images.xcassets */,
 				0AD61F2F187BA456003E4229 /* Supporting Files */,
 			);
@@ -370,8 +375,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AD61F3F187BA456003E4229 /* ViewController.m in Sources */,
+				0AD61F3F187BA456003E4229 /* HomeViewController.m in Sources */,
 				0AD61F39187BA456003E4229 /* AppDelegate.m in Sources */,
+				0A96062C187BB95500325539 /* ImageViewController.m in Sources */,
 				0AD61F35187BA456003E4229 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
