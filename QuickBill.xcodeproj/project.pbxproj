@@ -14,6 +14,7 @@
 		0A960629187BB5D100325539 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A960624187BB5D100325539 /* zbar-samples.png */; };
 		0A96062C187BB95500325539 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96062B187BB95500325539 /* ImageViewController.m */; };
 		0A96062F187BBEBA00325539 /* websites.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A96062E187BBEBA00325539 /* websites.txt */; };
+		0A960632187BC20B00325539 /* Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A960631187BC20B00325539 /* Barcode.m */; };
 		0AD61F29187BA456003E4229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD61F28187BA456003E4229 /* Foundation.framework */; };
 		0AD61F2B187BA456003E4229 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD61F2A187BA456003E4229 /* CoreGraphics.framework */; };
 		0AD61F2D187BA456003E4229 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD61F2C187BA456003E4229 /* UIKit.framework */; };
@@ -75,6 +76,8 @@
 		0A96062B187BB95500325539 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		0A96062D187BBADC00325539 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A96062E187BBEBA00325539 /* websites.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = websites.txt; sourceTree = "<group>"; };
+		0A960630187BC20B00325539 /* Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barcode.h; sourceTree = "<group>"; };
+		0A960631187BC20B00325539 /* Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barcode.m; sourceTree = "<group>"; };
 		0AD61F25187BA456003E4229 /* QuickBill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickBill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD61F28187BA456003E4229 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AD61F2A187BA456003E4229 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -242,6 +245,8 @@
 				0AD61F3E187BA456003E4229 /* HomeViewController.m */,
 				0A96062A187BB95500325539 /* ImageViewController.h */,
 				0A96062B187BB95500325539 /* ImageViewController.m */,
+				0A960630187BC20B00325539 /* Barcode.h */,
+				0A960631187BC20B00325539 /* Barcode.m */,
 				0AD61F40187BA456003E4229 /* Images.xcassets */,
 				0AD61F2F187BA456003E4229 /* Supporting Files */,
 			);
@@ -381,6 +386,7 @@
 			files = (
 				0AD61F3F187BA456003E4229 /* HomeViewController.m in Sources */,
 				0AD61F39187BA456003E4229 /* AppDelegate.m in Sources */,
+				0A960632187BC20B00325539 /* Barcode.m in Sources */,
 				0A96062C187BB95500325539 /* ImageViewController.m in Sources */,
 				0AD61F35187BA456003E4229 /* main.m in Sources */,
 			);
